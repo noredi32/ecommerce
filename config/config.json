@@ -1,8 +1,8 @@
 {
     "development": {
-      "username": "root",
-      "password": "root",
-      "database": "ecommerce_api",
+      "username": "nedi",
+      "password": "Umbrella34",
+      "database": "dbecommerce",
       "host": "127.0.0.1",
       "port": "3306",
       "dialect": "mariadb"

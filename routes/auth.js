@@ -8,7 +8,7 @@ router.post("/login", async (req, res) => {
   const user = await sequelize.models.users.findOne({
     where: {
       email: body.email,    // revisar si el usuario existe con el email 
-    }
+    },
   });
 
   if (!user) {
